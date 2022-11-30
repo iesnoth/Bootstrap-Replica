@@ -5,16 +5,16 @@ export default function Background() {
     return (
         <div style={{ display: "flex", flexDirection: "row" }}>
             <div>
-                <Card style={{ width: "1450px", height: "500px", marginBottom: "50px", backgroundColor: "#DEEED6" }} className="text-black">
+                <Card style={{ width: "1450px", height: "500px", marginBottom: "50px", backgroundColor: "#DEEED6" }}>
                     <div style={{ top: "auto", width: "1000px", marginLeft: "200px", marginBottom: "50px", marginTop: "45px"}}>
-                        <Card.Text style={{ fontSize: "2.5em", fontWeight: "bold" }}>
+                        <Card.Text style={{ fontSize: "2.5em"}}>
                             Order groceries for delivery <br /> or pickup today
                     </Card.Text>
                         <Card.Text style={{ fontSize: "1em" }}>
                             Whatever you want from local stores, brought right to your door.
                     </Card.Text>
                         <Form>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Group className="mb-3">
                                 <Form.Control style={{width:"75%"}} size="lg" type="text" placeholder="   Enter your address   " />
                             </Form.Group>
                         </Form>
