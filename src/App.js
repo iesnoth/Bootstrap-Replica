@@ -1,10 +1,11 @@
 import MakeNav from './components/MakeNav';
+import Background from './components/Background';
 
 function App() {
   return (
     <div className="App">
       <MakeNav />
-      <h1>Hello World</h1>
+      <Background />
     </div>
   );
 }
